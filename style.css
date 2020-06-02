@@ -1,0 +1,318 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+}
+
+.offer {
+    height: 200px;
+    background-color: white;
+    position: relative;
+}
+
+.firework-text {
+    z-index: 1;
+    color: bisque;
+    position: absolute;
+    left: 22%;
+    text-shadow: 5px 5px 5px teal;
+    color: wheat;
+}
+
+.firework-btn {
+    position: absolute;
+    z-index: 1;
+    top: 60%;
+    left: 40%;
+}
+
+.carousel {
+    margin-top: 45px;
+}
+
+.collection {
+    margin-top: 50px;
+}
+
+.change1,
+.change3,
+.change5,
+.change7,
+.change9,
+.change11,
+.change13,
+.change15 {
+    position: relative;
+    z-index: 1;
+}
+
+.change2,
+.change4,
+.change6,
+.change8,
+.change10,
+.change12,
+.change14,
+.change16 {
+    position: absolute;
+}
+
+.change1,
+.change3,
+.change5,
+.change7,
+.change9,
+.change11,
+.change13,
+.change15,
+.change2,
+.change4,
+.change6,
+.change8,
+.change10,
+.change12,
+.change14,
+.change16 {
+    transition: transform 2s;
+}
+
+.card:hover .change1,
+.card:hover .change3,
+.card:hover .change5,
+.card:hover .change7,
+.card:hover .change9,
+.card:hover .change11,
+.card:hover .change13,
+.card:hover .change15 {
+    transform: rotateY(180deg);
+}
+
+.card:hover .change2,
+.card:hover .change4,
+.card:hover .change6,
+.card:hover .change8,
+.card:hover .change10,
+.card:hover .change12,
+.card:hover .change14,
+.card:hover .change16 {
+    transform: rotateY(180deg);
+    z-index: 2;
+}
+
+.transform {
+    position: absolute;
+}
+
+.firework {
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    top: 40%;
+    bottom: 40%;
+}
+
+.sale:hover .brand {
+    color: black;
+    transform: translate(45%, 100%);
+    transition-duration: 15s;
+}
+
+.nav-link {
+    color: aliceblue;
+    font-size: 1.5em;
+    float: right;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.btn-primary {
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.card-img-top {
+    border: 2px solid #dae0e2;
+    box-shadow: 5px 5px 5px #758aa2;
+}
+
+.payment {
+    background-color: teal;
+    overflow: hidden;
+    margin-top: 200px;
+}
+
+.btn-warning,
+.btn-danger,
+.btn-success {
+    visibility: hidden;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card:hover .btn-warning {
+    visibility: visible;
+}
+
+.one {
+    display: none;
+}
+
+.card-header {
+    overflow: hidden;
+}
+
+#ewear:hover {
+    text-decoration: none;
+}
+
+.two {
+    background: linear-gradient(175deg, #e83350, #2c3335);
+}
+
+.three {
+    display: none;
+}
+
+.men-contents {
+    display: none;
+}
+
+#ewear {
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-shadow: 2px 2px 2px red, 2px 2px 2px black;
+    color: tomato;
+}
+
+.nav-link:hover {
+    color: turquoise;
+}
+
+#ewear:hover #ewear {
+    text-decoration: none;
+}
+
+.men:hover .men-contents {
+    display: block;
+}
+
+.collection {
+    display: flex;
+}
+
+.image,
+.image2,
+.image3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 5px;
+}
+
+.up,
+.in {
+    color: black;
+    font-size: 2em;
+}
+
+.sign-content {
+    background-image: url("https://dummyimage.com/600x400/#A4B0BD/192a56.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 100px;
+}
+
+.form {
+    border: 1px solid;
+    width: 500px;
+    top: 50%;
+    border-radius: 25px;
+    background: linear-gradient(170deg, #ea7773, #f5bcba);
+}
+
+.img11 {
+    height: 400px;
+    width: 200px;
+}
+
+.img12 {
+    height: 100px;
+    width: 100px;
+}
+
+.img21 {
+    height: 101px;
+    width: 300px;
+}
+
+.img22 {
+    height: 300px;
+    width: 300px;
+}
+
+.img23 {
+    height: 100px;
+    width: 300px;
+}
+
+.img31 {
+    height: 100px;
+    width: 150px;
+}
+
+.img32 {
+    height: 400px;
+    width: 150px;
+}
+
+@media screen and (max-width: 1000px) {
+    #ewear {
+        font-size: 2em;
+        margin-right: 0px;
+    }
+    .nav-link {
+        font-size: 1em;
+    }
+    .card-deck {
+        margin-top: 75px;
+    }
+    @media screen and (max-width: 1000px) {
+        .option {
+            display: none;
+        }
+    }
+    @media screen and (max-width: 1000px) {
+        .collection {
+            display: none;
+        }
+    }
+    @media screen and (max-width: 1000px) {
+        .sign-content {
+            margin-top: 75px;
+        }
+    }
+    @media screen and (max-width: 800px) {
+        .sign-content {
+            margin-top: 50px;
+        }
+    }
+}

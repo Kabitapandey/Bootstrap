@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    color: aliceblue;
+    font-size: 2em;
+    float: right;
+}
+
+.navbar-brand {
+    font-size: 12em;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.btn-primary {
+    text-align: center;
+}
+
+.form-control {
+    text-align: center;
+    height: 40px;
+    width: 700px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.container {
+    margin-top: 200px;
+}
+
+.content {
+    background-color: aliceblue;
+}
+
+body {
+    background: linear-gradient(#758aa2, pink);
+}
+
+.payment {
+    background-color: teal;
+    overflow: hidden;
+}
+
+.container {
+    overflow: hidden;
+}
+
+#ewear {
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-shadow: 2px 2px 2px red, 2px 2px 2px black;
+    color: tomato;
+}
+
+.search {
+    width: 500px;
+    height: 50px;
+    text-align: center;
+}
+
+.image {
+    display: flex;
+}
+
+.img1,
+.img2,
+.img3 {
+    height: 50px;
+    width: 50px;
+    background-color: turquoise;
+}
+
+.nav-link:hover {
+    color: turquoise;
+}
+
+#ewear:hover #ewear {
+    text-decoration: none;
+    background-color: turquoise;
+}
+
+.btn-success,
+.btn-primary,
+.btn-warning {
+    margin-top: 25px;
+    width: 400px;
+}
+
+.nav-link {
+    float: right;
+}
+
+#ewear:hover {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1300px) {
+    #ewear {
+        font-size: 2em;
+        margin-right: 10px;
+    }
+    .nav-link {
+        font-size: 1em;
+    }
+}

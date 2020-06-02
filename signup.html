@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/6fc930fc30.js "></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./jquery.flying-circles.js"></script>
+    <title>E-Wear Online Shopping</title>
+</head>
+
+<body>
+    <div class="sign-content">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md two fixed-top">
+                <a href="./index.html" id="ewear" class="mr-5">
+            E-Wear
+          </a>
+                <button class="navbar-toggler" data-target="#mynavbar" data-toggle="collapse">
+            <i class="fa fa-bars fa-2x text-light" aria-hidden="true"></i>
+          </button>
+                <div class="collapse navbar-collapse justify-content-end" id="mynavbar">
+                    <form class="form-inline">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search" />
+                            <div class="input-group-append">
+                                <button class="btn btn-default input-group-text">
+                    <i class="fa fa-search"></i>
+                  </button>
+                            </div>
+                        </div>
+                    </form>
+                    <ul class="navabar-nav ml-2">
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Options</a
+                >
+                <div class="dropdown-menu">
+                  <a href="./men.html" class="men dropdown-item">Men's Wear</a>
+
+                            <a href="./women.html" class="dropdown-item women">Women's Wear</a
+                  >
+
+                  <a href="./chlidren.html" class="dropdown-item"
+                    >Children Wear</a
+                  >
+                </div>
+              </li>
+              <li class="nav-item">
+                <a href="./cart.html" class="nav-link"
+                  >Cart
+                  <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+                </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="./signup.html" class="nav-link" id="signup">SignUp</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container-fluid">
+            <div class="content d-flex justify-content-end">
+                <div class="form mt-5 mb-5 mr-5 ml-5">
+                    <ul class="mt-2 ml-2">
+                        <li class="font-weight-bolder">
+                            <a href="./signup.html" class="up">SignUp</a>
+                        </li>
+                        <li class="font-weight-bolder float-right mr-2">
+                            <a href="./cart.html" class="in">LogIn</a>
+                        </li>
+                    </ul>
+                    <form class="form-responsive ml-2 mr-2">
+                        <label for="first">First Name</label>
+                        <input type="text" placeholder="First Name" class="firstname form-control" required />
+                        <label for="last">Last Name</label>
+                        <input type="text" placeholder="Last Name" class="lastname form-control" required />
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Email" class="email form-control" required />
+                        <label for="password">Password</label>
+                        <input type="password" placeholder="Password" class="password form-control" required />
+                        <label for="phone">Phone No</label>
+                        <input type="phone" placeholder="Phone No" class="form-control" required />
+                    </form>
+                    <br />
+                    <button class="sign btn btn-dark float-right mb-5 mr-5">
+              SignUp
+            </button>
+                </div>
+            </div>
+        </div>
+        <div class="payment mt-5">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm- col-md-6 col-lg-6">
+                            <h1 class="mt-5 mb-5 text-white ml-5">Payment Methods</h1>
+                            <button class="p-2 ml-5 btn-dark">Cash on Delivery</button>
+                            <button class="p-2 btn-dark">E-Sewa</button>
+                            <button class="p-2 btn-dark">Visa</button>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 co,-md-6 co,-lg-6">
+                            <h1 class="mt-5 mb-5 ml-5 text-white">Follow Us</h1>
+                            <a href="#"><i class="fa fa-facebook fa-3x text-dark ml-5"></i
+                ></a>
+                            <a href="#"><i class="fa fa-instagram fa-3x pl-3 text-dark"></i
+                ></a>
+                            <a href="#"><i class="fa fa-twitter fa-3x pl-3 text-dark"></i
+                ></a>
+                        </div>
+                    </div>
+                </div>
+                <footer class="ml-5 mt-5 text-white font-weight-bold">
+                    Copyright &copy; 2020
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
